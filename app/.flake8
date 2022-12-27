@@ -3,5 +3,4 @@ exclude =
     migrations,
     __pycache__,
     manage.py,
-    app/settigns.py
-    
+    /app/settigns.py
