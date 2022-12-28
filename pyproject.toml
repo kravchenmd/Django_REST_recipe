@@ -10,6 +10,7 @@ packages = [{include = "django_rest_recipe"}]
 python = "^3.10"
 django = ">=3.2.4,<3.3"
 djangorestframework = ">=3.12.4,<3.13"
+psycopg2 = "^2.9.5"
 
 
 [build-system]
