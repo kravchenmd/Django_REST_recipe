@@ -2,6 +2,10 @@
 .git
 .gitignore
 
+# Poetry
+poetry.lock
+pyproject.toml
+
 # Docker
 .docker
 
