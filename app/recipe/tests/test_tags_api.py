@@ -106,7 +106,7 @@ class PrivateTagsApiTests(TestCase):
         tag1 = Tag.objects.create(user=self.user, name='Breakfast')
         tag2 = Tag.objects.create(user=self.user, name='Lunch')
         recipe = Recipe.objects.create(
-            title='Green Eggs on Toast',
+            title="Green Eggs on Toast",
             time_minutes=5,
             price=Decimal('2.50'),
             user=self.user,
@@ -125,13 +125,13 @@ class PrivateTagsApiTests(TestCase):
         tag = Tag.objects.create(user=self.user, name='Breakfast')
         Tag.objects.create(user=self.user, name='Dinner')
         r1 = Recipe.objects.create(
-            title='Eggs Benedict',
+            title="Eggs Benedict",
             time_minutes=10,
             price=Decimal('3.50'),
             user=self.user,
         )
         r2 = Recipe.objects.create(
-            title='Herb Eggs',
+            title="Herb Eggs",
             time_minutes=20,
             price=Decimal('5.50'),
             user=self.user,
