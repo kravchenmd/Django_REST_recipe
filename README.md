@@ -1,6 +1,6 @@
 # Recipes app (Django, REST API)
 
-![API docs](readme_img\api_docs.jpg)
+![API docs](readme_img/api_docs.jpg)
 
 
 
@@ -27,13 +27,13 @@
 
 For the full development cycle the project was deployed App was deployed using a single virtual private server (**VPS**) on **AWS (EC2)** inside the Docker container:
 
-![Admin page on AWS](readme_img\admin_page_aws.jpg)
-![API docs on AWS](readme_img\api_docs_aws.jpg)
+![Admin page on AWS](readme_img/admin_page_aws.jpg)
+![API docs on AWS](readme_img/api_docs_aws.jpg)
 
 
 ### App structure
 
-![App scheme](readme_img\app_diagram.png)
+![App scheme](readme_img/app_diagram.png)
 
 - HTTP Requests to the Django service are handled using **NGINX** reverse proxy server.
 - **uWSGI** server is used to serve Django app.
@@ -48,11 +48,11 @@ The structure of the project is divided to:
 - *core* application for the management and storing of migrations, models, and admin customization;
 - *recipe* and *user* applications for separating functionality (serializers, views, etc.)
 
-![Project structure](readme_img\project_structure.jpg)
+![Project structure](readme_img/project_structure.jpg)
 
 A user's recipe has the following fields (swagger schema):
 
-![Recipe schema](readme_img\recipe_schema.jpg)
+![Recipe schema](readme_img/recipe_schema.jpg)
 
 
 ### Other features:
@@ -77,14 +77,14 @@ A user's recipe has the following fields (swagger schema):
 
 - Generating a token for a user:
 
-![Getting token](readme_img\generating_token.jpg)
+![Getting token](readme_img/generating_token.jpg)
 
 - Authorization using the token:
 
-![Authorization with token](readme_img\authorization_using_token.jpg)
+![Authorization with token](readme_img/authorization_using_token.jpg)
 
 - Example of a response for getting recipes HTTP request:
 
-![Get recipes response ](readme_img\get_recipes_response.jpg)
+![Get recipes response ](readme_img/get_recipes_response.jpg)
 
 **_Kravchenko Michail_**
