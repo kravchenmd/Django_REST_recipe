@@ -1,6 +1,8 @@
 # Git
 .git
 .gitignore
+README.md
+readme_img/
 
 # Poetry
 poetry.lock
